@@ -1,0 +1,16 @@
+#ice-melting
+{
+    width: 48vw;
+}
+
+#ice-block-1
+{
+    animation: move_ice-block 3s linear infinite;
+}
+
+@keyframes move_ice-block
+{
+    0%{transform:translate(0px , 0px);}
+    50%{transform:translate(10px , 10px);}
+    100%{transform:translate(0px , 0px);}
+}
